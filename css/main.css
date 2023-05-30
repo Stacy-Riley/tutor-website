@@ -42,18 +42,46 @@ img {
 /**************************************************/
 /* Navbar container */
 .container-fluid {
-    background-color: beige;
+    background-color:#E9E7EA;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-header {
-    background-image: url("../images/hero-image.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
+.navbar {
+  padding: 0; 
+}
+
+.header-content-container {
+    position: relative;
     height: 600px;
 }
 
-/* Continue with finding a suitable background image for 
-header element */
+.header-message {
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  position: absolute;
+  top: 25px;
+}
+
+.header-message h1 {
+  font-size: 32px;
+  color: rgb(40, 40, 108);
+  margin-bottom: 20px;
+}
+
+/*Get started button*/
+.link-to-get-started {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(34, 34, 187);
+  padding: 10px 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/*Continue with adding the 2 graffics under hero image*/
 /**************************************************/
 /*  - Mobile */
 /**************************************************/
