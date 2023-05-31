@@ -41,10 +41,13 @@ img {
 /* Header Section - Mobile First */
 /**************************************************/
 /* Navbar container */
+header {
+  /* background-color:#E9E7EA; */
+}
 .container-fluid {
-    background-color:#E9E7EA;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color:#E9E7EA;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar {
@@ -52,8 +55,9 @@ img {
 }
 
 .header-content-container {
-    position: relative;
-    height: 600px;
+  background-color:#E9E7EA;
+  padding-top: 130px;
+  position: relative;
 }
 
 .header-message {
@@ -61,13 +65,13 @@ img {
   margin-left: 16px;
   margin-right: 16px;
   position: absolute;
-  top: 25px;
+  top: 70px;
 }
 
 .header-message h1 {
   font-size: 32px;
   color: rgb(40, 40, 108);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /*Get started button*/
@@ -78,10 +82,83 @@ img {
   background-color: rgb(34, 34, 187);
   padding: 10px 40px;
   border-radius: 15px;
-  margin-top: 20px;
+}
+.decorative-drawings-container {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-bottom: 60px;
 }
 
-/*Continue with adding the 2 graffics under hero image*/
+#header-decor-container-1,
+#header-decor-container-2 {
+  width: 120px;
+}
+
+.decorative-drawings-container figure:first-child {
+  margin-top: 80px;
+}
+
+.decorative-drawings-container figure {
+  /* width: 120px; */
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.decorative-drawings-container p {
+  font-size: 20px;
+  /* width: ; */
+  text-align: center;
+  color: rgb(40, 40, 108);
+  margin: 0;
+  
+}
+
 /**************************************************/
-/*  - Mobile */
+/* How It Works Section - Mobile */
 /**************************************************/
+.how-it-works-wrapper {
+  position: relative;
+  margin-top: 50px;
+}
+h2 {
+  margin-top: 60px;
+  text-align: center;
+}
+.top-curved-line {
+  position: absolute;
+  top: 520px;
+  left: 40px;
+  width: 300px;
+}
+.bottom-curved-line {
+  position: absolute;
+  top: 1130px;
+  left: 40px;
+  width: 300px;
+}
+.how-it-works-container {
+  border-top: 3px solid rgb(211, 208, 208);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.first-image {
+  /* margin-bottom: */
+}
+.third-image {
+  height: 300px;
+  overflow: hidden;
+}
+.step-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.step-container figure {
+  margin-bottom: 30px;
+}
+#step-two,
+#step-three {
+  margin-top: 160px;
+}
