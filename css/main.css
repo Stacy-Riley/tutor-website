@@ -79,7 +79,7 @@ header {
   font-size: 18px;
   color: white;
   text-decoration: none;
-  background-color: rgb(34, 34, 187);
+  background-color: rgb(57, 125, 197);
   padding: 10px 40px;
   border-radius: 15px;
 }
@@ -102,18 +102,15 @@ header {
 }
 
 .decorative-drawings-container figure {
-  /* width: 120px; */
   margin-top: 80px;
   margin-bottom: 20px;
 }
 
 .decorative-drawings-container p {
   font-size: 20px;
-  /* width: ; */
   text-align: center;
   color: rgb(40, 40, 108);
-  margin: 0;
-  
+  margin: 0; 
 }
 
 /**************************************************/
@@ -123,30 +120,32 @@ header {
   position: relative;
   margin-top: 50px;
 }
-h2 {
+
+.how-it-works-wrapper h2 {
   margin-top: 60px;
   text-align: center;
 }
+
 .top-curved-line {
   position: absolute;
   top: 520px;
   left: 40px;
   width: 300px;
 }
+
 .bottom-curved-line {
   position: absolute;
   top: 1130px;
   left: 40px;
   width: 300px;
 }
+
 .how-it-works-container {
   border-top: 3px solid rgb(211, 208, 208);
   margin-left: 20px;
   margin-right: 20px;
 }
-.first-image {
-  /* margin-bottom: */
-}
+
 .third-image {
   height: 300px;
   overflow: hidden;
@@ -155,10 +154,123 @@ h2 {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
 .step-container figure {
   margin-bottom: 30px;
 }
+
 #step-two,
 #step-three {
   margin-top: 160px;
 }
+/**************************************************/
+/* About Section - Mobile */
+/**************************************************/
+.about-wrapper {
+  display: flex;
+}
+
+.about-container {
+  border-top: 2px solid rgb(211, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 60px;
+}
+
+.about-container h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.portfolio-video-message {
+  margin-top: 16px;
+  text-align: center;
+}
+.carousel {
+  margin-top: 60px;
+}
+
+.carousel-inner {
+  border-radius: 100px;
+  background-color: rgb(57, 125, 197);
+}
+
+.carousel-item {
+  height: 150px;
+}
+
+.carousel-item p {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+  width: 250px;
+}
+/**************************************************/
+/* Contact Section - Mobile */
+/**************************************************/
+.contact-wrapper {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  border-top: 2px solid rgb(211, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.contact-container p {
+  text-align: center;
+}
+
+.form-container form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  width: 343px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+}
+
+.form-container button {
+  align-self: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(57, 125, 197);
+  border: none;
+  padding: 10px 40px;
+  border-radius: 15px;
+}
+
+/* For next session, begin with spacing and font sizes with form in contact section */
+
+/**************************************************/
+/* Footer Section - Mobile */
+/**************************************************/
