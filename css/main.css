@@ -274,3 +274,23 @@ header {
 /**************************************************/
 /* Footer Section - Mobile */
 /**************************************************/
+.footer-wrapper {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.footer-social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-bottom: 30px;
+}
+.footer-social-container figure {
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-copyright-container p {
+  text-align: center;
+  font-size: 16px;
+}
