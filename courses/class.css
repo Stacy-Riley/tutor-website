@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  min-height: 100%;
+  margin: 0;   
+}
+
+.max-width-wrapper {
+  min-height: 100%; 
+  max-width: 1440px;
+  /* Overflow: hidden hides the excess portions of the decorative elements so there isn't a 
+  horizontal scrollbar, plus make sure margin is 0 so displays to the edge */
+  overflow: hidden;
+  margin: 0;
+  
+ } 
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+/**************************************************/
+/* Header Section - Mobile First */
+/**************************************************/
+/* Navbar container */
+header {
+  background-color:#E9E7EA;
+}
+.container-fluid {
+  background-color:#E9E7EA;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  padding: 0; 
+}
+
+.header-content-container {
+  /* background-color:#E9E7EA; */
+  padding-top: 130px;
+  position: relative;
+}
+
+.header-message {
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  position: absolute;
+  top: 70px;
+}
+
+.header-message h1 {
+  font-size: 32px;
+  color: rgb(40, 40, 108);
+  margin-bottom: 40px;
+}
+
+
+
+/**************************************************/
+/* Card Section - Mobile First */
+/**************************************************/
+.course-wrapper {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.course-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.course-card {
+    box-shadow: 4px 4px 10px rgba(63, 91, 194, 0.2472);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    background-color: rgb(170, 170, 151);
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+}
+
+.course-card h2, 
+.course-card a,
+.course-card p {
+    text-align: center;
+}
+
+.contact-link-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*Get started button*/
+.link-to-get-started {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(57, 125, 197);
+    padding: 10px 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+details {
+    margin-left: 20px;
+}
+
+/**************************************************/
+/* Contact Section - Mobile */
+/**************************************************/
+.contact-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  
+  .contact-container {
+    border-top: 2px solid rgb(211, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  
+  .contact-container p {
+    text-align: center;
+  }
+  
+  .form-container form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 343px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+  }
+  
+  .form-container button {
+    align-self: center;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(57, 125, 197);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+  }
+  
+  /**************************************************/
+  /* Footer Section - Mobile */
+  /**************************************************/
+  footer {
+    background-color: rgb(57, 125, 197);
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .footer-wrapper {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .footer-social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    margin-bottom: 30px;
+  }
+  .footer-social-container figure {
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .footer-copyright-container p {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .span-copyright {
+    display: block;
+  }
