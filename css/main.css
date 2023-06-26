@@ -45,7 +45,7 @@ header {
   /* background-color:#E9E7EA; */
 }
 .container-fluid {
-  background-color:#E9E7EA;
+  /* background-color:#E9E7EA; */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -55,7 +55,7 @@ header {
 }
 
 .header-content-container {
-  background-color:#E9E7EA;
+  /* background-color:#E9E7EA; */
   padding-top: 130px;
   position: relative;
 }
@@ -70,16 +70,17 @@ header {
 
 .header-message h1 {
   font-size: 32px;
-  color: rgb(40, 40, 108);
+  color: rgb(46, 100, 157);
   margin-bottom: 40px;
 }
 
 /*Get started button*/
 .link-to-get-started {
   font-size: 18px;
-  color: white;
+  color: black;
   text-decoration: none;
-  background-color: rgb(57, 125, 197);
+  background-color: #FFC92A;
+  /* background-color: rgb(57, 125, 197); */
   padding: 10px 40px;
   border-radius: 15px;
 }
@@ -128,14 +129,14 @@ header {
 
 .top-curved-line {
   position: absolute;
-  top: 520px;
+  top: 600px;
   left: 40px;
   width: 300px;
 }
 
 .bottom-curved-line {
   position: absolute;
-  top: 1130px;
+  top: 1270px;
   left: 40px;
   width: 300px;
 }
@@ -162,6 +163,21 @@ header {
 #step-two,
 #step-three {
   margin-top: 160px;
+}
+
+.how-it-works-container a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  background-color: #FFC92A;
+  /* background-color: rgb(57, 125, 197); */
+  padding: 10px 40px;
+  border-radius: 15px;
+}
+.how-it-works-a-link-container {
+  display: flex;
+  justify-content: center;
+
 }
 /**************************************************/
 /* About Section - Mobile */
@@ -196,7 +212,10 @@ header {
 
 .carousel-inner {
   border-radius: 100px;
-  background-color: rgb(57, 125, 197);
+  
+  font-size: 18px;
+  /* color: black; */
+  background-color: #FFC92A;
 }
 
 .carousel-item {
@@ -204,7 +223,7 @@ header {
 }
 
 .carousel-item p {
-  color: #ffffff;
+  /* color: #ffffff; */
   font-weight: bold;
   text-align: center;
   line-height: 24px;
