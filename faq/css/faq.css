@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  min-height: 100%;
+  margin: 0;   
+}
+
+.max-width-wrapper {
+  min-height: 100%; 
+  max-width: 1440px;
+  /* Overflow: hidden hides the excess portions of the decorative elements so there isn't a 
+  horizontal scrollbar, plus make sure margin is 0 so displays to the edge */
+  overflow: hidden;
+  margin: 0;
+  
+ } 
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+/**************************************************/
+/* Header Section - Mobile First */
+/**************************************************/
+/* Navbar container */
+header {
+  background-color:#E9E7EA;
+}
+.container-fluid {
+  background-color:#E9E7EA;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  padding: 0; 
+}
+
+.header-content-container {
+  /* background-color:#E9E7EA; */
+  padding-top: 130px;
+  position: relative;
+}
+
+.header-message {
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  position: absolute;
+  top: 70px;
+}
+
+.header-message h1 {
+  font-size: 32px;
+  color: rgb(40, 40, 108);
+  margin-bottom: 40px;
+}
+
+
