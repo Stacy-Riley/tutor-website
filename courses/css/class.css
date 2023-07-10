@@ -42,10 +42,9 @@ img {
 /**************************************************/
 /* Navbar container */
 header {
-  background-color:#E9E7EA;
+
 }
 .container-fluid {
-  background-color:#E9E7EA;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -55,7 +54,6 @@ header {
 }
 
 .header-content-container {
-  /* background-color:#E9E7EA; */
   padding-top: 130px;
   position: relative;
 }
@@ -80,7 +78,7 @@ header {
 /* Card Section - Mobile First */
 /**************************************************/
 .course-wrapper {
-    margin-top: 150px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 .course-container {
@@ -94,8 +92,8 @@ header {
     box-shadow: 4px 4px 10px rgba(63, 91, 194, 0.2472);
     margin-left: 16px;
     margin-right: 16px;
-    margin-bottom: 20px;
-    background-color: rgb(170, 170, 151);
+    margin-bottom: 50px;
+    background-color: #FEC92A;
     border-radius: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -114,7 +112,8 @@ header {
 }
 
 /*Get started button*/
-.link-to-get-started {
+.link-to-get-started,
+.link-to-get-started:visited {
     font-size: 18px;
     color: white;
     text-decoration: none;
@@ -122,9 +121,9 @@ header {
     padding: 10px 40px;
     border-radius: 15px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    
-  }
+    margin-bottom: 20px;  
+}
+
 details {
     margin-left: 20px;
 }
