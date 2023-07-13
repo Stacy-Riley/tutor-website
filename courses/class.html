@@ -74,78 +74,91 @@
                 <div class="course-container">
                     <div class="course-card">
                         <h2>Beginner English</h2>
-                        <p>A0 - A1</p>
+                        <h3>A0 - A1</h3>
+                        <p class="course-message">Our Beginner Level course is perfect for young learners 
+                          who are taking their first steps in learning English. 
+                          Through engaging activities, interactive games, and 
+                          captivating storytelling, we introduce children to the 
+                          fundamental aspects of the English language. They will learn 
+                          basic vocabulary, simple sentence structures, and essential 
+                          grammar concepts.</p>
+                        
                         <ul>
+                            <li class="list-title">Course Includes:</li>
                             <li>Skills Assessment</li>
-                            <li>200+ hours of learning material</li>
+                            <li>250+ hours of learning material</li>
                             <li>Fun and Engaging Material</li>
                             <li>Focus on speaking from day 1</li>
+                            <li>Colors, numbers, &amp; shapes</li>
+                            <li>Grammar</li>
+                            <li>Pronounciation &amp; alphabet</li>
+                            <li>Basic sentence structure</li>
                         </ul>
                         <div class="contact-link-container">
-                            <a class="link-to-get-started" href="#contact-section" aria-label="Link-to-get-started">Purchase Course</a>
+                            <a class="link-to-get-started" href="#contact-section" aria-label="Link-to-get-started">Contact Us</a>
                         </div>
-                         <details>
-                            <summary>Click here for Course Topics</summary>
-                            <ul>
-                                <li>Colors, numbers, &amp; shapes</li>
-                                <li>Grammar</li>
-                                <li>Pronounciation &amp; alphabet</li>
-                                <li>Basic sentence structure</li>
-                            </ul>
-                        </details>
                     </div>
 
                     <div class="course-card">
                         <h2>Intermediate English</h2>
-                        <p>A2 - B1</p>
+                        <h3>A2 - B1</h3>
+                        <p class="course-message">
+                          For children who have grasped the basics and are ready to dive
+                          deeper, our Intermediate Level course offers a more comprehensive 
+                          exploration of the English language. Building upon their existing 
+                          knowledge, students will expand their vocabulary, develop stronger 
+                          grammatical skills, and improve their reading and writing abilities. Interactive exercises and creative projects will keep them motivated and engaged throughout the learning process.
+                        </p>
                         <ul>
+                            <li class="list-title">Course Includes:</li>
                             <li>Skills Assessment</li>
                             <li>250+ hours of learning material</li>
                             <li>Vocabulary tailored to your interests</li>
                             <li>Engaging Speaking &amp; Listening Practice</li>
+                            <li>Grammar explained</li>
+                            <li>Games</li>
+                            <li>Pronounciation &amp; alphabet</li>
+                            <li>More advanced sentence structure</li>
                             
                         </ul>
                         <div class="contact-link-container">
-                            <a class="link-to-get-started" href="#contact-section" aria-label="Link-to-get-started">Purchase Course</a>
+                            <a class="link-to-get-started" href="#contact-section" aria-label="Link-to-get-started">Contact Us</a>
                         </div>
-                        <details>
-                            <summary>Click here for Course Topics</summary>
-                            <ul>
-                                <li>Grammar explained</li>
-                                <li>Games</li>
-                                <li>Pronounciation &amp; alphabet</li>
-                                <li>More advanced sentence structure</li>
-                            </ul>
-                        </details>
                       </div>
 
                     <div class="course-card">
                         <h2>Advanced English</h2>
-                        <p>B2 - C1</p>
+                        <h3>B2 - C1</h3>
+                        <p class="course-message">
+                          Our Advanced Level course is designed for children who have a solid 
+                          foundation in English and are ready to take their language skills to 
+                          the next level. This course focuses on enhancing fluency, expanding 
+                          vocabulary, and refining grammar and pronunciation. Through stimulating 
+                          discussions, challenging reading materials, and writing assignments, 
+                          students will gain confidence and proficiency in expressing themselves 
+                          effectively in English.
+                        </p>
                         <ul>
+                            <li class="list-title">Course Includes:</li>
                             <li>Skills Assessment</li>
                             <li>250+ hours of learning material</li>
                             <li>Vocabulary tailored to your interests</li>
                             <li>Advanced Speaking &amp; Listening Practice</li>
+                            <li>Grammar concepts reviewed as needed</li>
+                            <li>Speaking and listening games</li>
+                            <li>Focus on areas the student has weakness</li>
+                            <li>Role Play to solidify listening and speaking skills</li>
                             
                         </ul>
                         <div class="contact-link-container">
-                            <a class="link-to-get-started" href="#contact-section" aria-label="Link-to-get-started">Purchase Course</a>
+                            <a class="link-to-get-started" href="#contact-section" aria-label="Link-to-get-started">Contact Us</a>
                         </div>
-                        <details>
-                            <summary>Click here for Course Topics</summary>
-                            <ul>
-                                <li>Grammar concepts reviewed as needed</li>
-                                <li>Speaking and listening games</li>
-                                <li>Focus on areas the student has weakness</li>
-                                <li>Sentence structure</li>
-                            </ul>
-                        </details>
                     </div>
                     
                 </div>
             </section>
 <!-- Contact Section -->
+            <!-- Contact Section -->
             <section id="contact-section" class="contact-wrapper">
               <div class="contact-container">
                 <div>
@@ -155,14 +168,32 @@
                 <div class="form-container">
                   <form action="">
                     <!-- <fieldset> -->
-                      <label for="form-name">Name</label>
+                      <label for="form-name">Name
                       <input type="text"id="form-name" name="form-name"  required>
+                      </label>
                       <br>
-                      <label for="form-email">Email</label>
+                      <label for="form-email">Email
                       <input type="text" id="form-email" name="form-email" required>
+                      </label>
                       <br>
-                      <label for="form-textarea">Message</label>
-                      <textarea name="form-textarea" id="form-textarea" cols="30" rows="10"></textarea>
+                      <div class="form-age-level-container">
+                        <label for="form-level">Current Level
+                          <select name="form-level" id="form-level">
+                            <option disabled selected>Select an option</option>
+                            <option value="Beginner">Beginner A0-A1</option>
+                            <option value="Intermediate">Intermediate A2-B1</option>
+                            <option value="Advanced">Advanced B2-C1</option>
+                          </select>
+                        </label>
+                        <label for="form-age">Age of Student
+                          <input type="text" id="form-age" name="form-age" required>
+                        </label>
+                      </div>
+                      
+                      <br>
+                      <label for="form-textarea">Message
+                        <textarea name="form-textarea" id="form-textarea" cols="30" rows="10"></textarea>
+                      </label>
                       <button class="contact-submit">Submit</button>
                     <!-- </fieldset> -->
                     
